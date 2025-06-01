@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 salvarUsuarios(usuarios);
                 alert(`Cadastro realizado com sucesso!\nBem-vindo(a), ${nome}!\nAgora faça login.`);
                 // Redireciona para a tela de login após o cadastro
-                window.location.href = 'login.html';
+                window.location.href = 'index.html';
             }
         });
     }
